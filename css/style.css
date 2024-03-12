@@ -1,3 +1,5 @@
+/* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +25,8 @@ header {
 
 .nav-column {
     margin: 1rem 0;
-    font-size: 2vh;
+    min-height: 6rem;
+    font-size: 1rem;
     padding-top: 3rem;
 }
 .small-nav-column {
@@ -43,12 +46,10 @@ div > span {
     color: white;
 }
 
-.login-button {
-    border-radius: 7px;
-    font-size: 2vh;
-    padding: 2%;
+.login {
+    background-color: #222;
+    color: white;
 }
-
 #jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: 100%;
@@ -73,21 +74,22 @@ p {
     padding-top: 2rem;
 }
 
-.download-button {
-    font-size: 2vh;
-    margin-top: 2rem;
+.button {
+    font-size: 1rem;
     padding: 2%;
-    border-radius: 20px;
-    margin-right: 2vh;
+    border-radius: 37px;
+    border: none;
 }
 
-.browser-button {
+.download {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.browser {
     background-color: #222;
     color: white;
-    font-size: 2vh;
     margin-top: 2rem;
-    padding: 2%;
-    border-radius: 20px;
 }
 /* Main content */
 
@@ -132,18 +134,15 @@ h2 {
 
 .star {
     background-image: url(../img/stars.svg);
-    background-size: 96%;
+    background-size: 90%;
     background-repeat: repeat;
     padding-top: 3rem;
 }
 
 .download2 {
-    font-size: 2vh;
-    margin-top: 4rem;
-    padding: 2%;
-    border-radius: 20px;
     background-color: rgb(114, 137, 218);
     color: white;
+    margin-top: 2rem;
 }
 
 /* Footer */
@@ -168,6 +167,7 @@ h5 {
 }
 .flag{
     width: 12%;
+    padding-right: 2%;
 }
 .footer-column {
     min-height: 25rem;
@@ -194,10 +194,8 @@ h5 {
     margin: auto
 }
 
-.footer-button {
-    background-color: #4261b6;
-    padding: 2%;
+.login2 {
+    background-color: rgb(114, 137, 218);
     color: white;
-    font-size: 2vh;
-    border-radius: 7px;
+    margin-top: 1rem;
 }
