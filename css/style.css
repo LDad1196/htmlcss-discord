@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
 }
 
 
 /* Header */
 
 header {
-    background-color: lightblue;
-    height: 18rem;
+    background-color: rgb(37, 94, 233);
 }
 
 .flex-container {
@@ -18,52 +17,69 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .nav-column {
-    background-color: goldenrod;
     margin: 1rem 0;
-    border: 2px dashed;
-    padding: 1rem;
+    font-size: 3vh;
+    padding-top: 3rem;
 }
 .small-nav-column {
-    width: 25%
+    width: 13%
 }
 
+.logo-img {
+    padding-top: 2%;
+}
+
+div > span {
+    padding-right: 1%;
+}
 .big-nav-column {
     text-align: center;
-    width: 50%
+    width: 74%;
+    color: white;
 }
 
-.login {
-    text-align: right;
+.login-button {
+    border-radius: 5px;
+    font-size: 3vh;
 }
 
 #jumbotron {
-    background-color: blue;
-    height: 14rem;
-    border-bottom: 5px solid lightblue;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 29rem;
     padding: 2rem;
 }
 
-.pink-big {
-    background-color: rgb(238, 130, 238);
-    height: 10rem;
-    width: 65%;
+.jumbotron-text {
+    color: white;
+    width: 60%;
     margin: 0 auto;
-    border: 1px dashed;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+    padding-top: 2rem;
+}
+
+.paragraph {
+    padding-top: 2rem;
 }
 
 /* Main content */
 
 .odd {
-    height: 16rem;
+    min-height: 20rem;
 }
 
 .even {
-    height: 16rem;
+    min-height: 20rem;
     background-color: lightgrey;
 }
 
@@ -90,6 +106,24 @@ header {
     height: 14rem;
     width: 70%;
     border: 1px dashed;
+}
+
+.download-button {
+    font-size: 3vh;
+    margin-top: 2rem;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2vh;
+}
+
+.browser-button {
+    background-color: #222;
+    color: white;
+    font-size: 3vh;
+    margin-top: 1rem;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2vh;
 }
 
 /* Footer */
