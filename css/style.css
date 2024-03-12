@@ -17,7 +17,11 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+<<<<<<< HEAD
     width: 88%;
+=======
+    width: 70%;
+>>>>>>> 48851bdd0276d20dba32d15aafccc21ba6410cdf
     margin: 0 auto;
 }
 
@@ -61,6 +65,18 @@ div > span {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+h1 {
+    font-size: 5vh;
+    padding-top: 2rem;
+}
+
+.paragraph {
+    padding-top: 2rem;
+>>>>>>> 48851bdd0276d20dba32d15aafccc21ba6410cdf
 }
 
 h1 {
@@ -92,12 +108,20 @@ p {
 /* Main content */
 
 .odd {
+<<<<<<< HEAD
     min-height: 30rem;
     text-align: center;
 }
 
 .even {
     min-height: 30rem;
+=======
+    min-height: 20rem;
+}
+
+.even {
+    min-height: 20rem;
+>>>>>>> 48851bdd0276d20dba32d15aafccc21ba6410cdf
     background-color: lightgrey;
     text-align: center;
 }
@@ -125,6 +149,7 @@ h2 {
     width: 70%;
 }
 
+<<<<<<< HEAD
 .star {
     background-image: url(../img/stars.svg);
     background-size: 96%;
@@ -140,6 +165,26 @@ h2 {
     background-color: rgb(114, 137, 218);
     color: white;
 }
+=======
+.download-button {
+    font-size: 3vh;
+    margin-top: 2rem;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2vh;
+}
+
+.browser-button {
+    background-color: #222;
+    color: white;
+    font-size: 3vh;
+    margin-top: 1rem;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2vh;
+}
+
+>>>>>>> 48851bdd0276d20dba32d15aafccc21ba6410cdf
 /* Footer */
 
 footer {
