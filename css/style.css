@@ -27,7 +27,7 @@ header {
     padding-top: 3rem;
 }
 .small-nav-column {
-    width: 13%
+    width: 7%
 }
 
 .logo-img {
@@ -44,8 +44,9 @@ div > span {
 }
 
 .login-button {
-    border-radius: 5px;
-    font-size: 3vh;
+    border-radius: 7px;
+    font-size: 2vh;
+    padding: 2%;
 }
 
 #jumbotron {
@@ -64,17 +65,7 @@ div > span {
 }
 
 h1 {
-    font-size: 5vh;
-    padding-top: 2rem;
-}
-
-.paragraph {
-    padding-top: 2rem;
->>>>>>> 48851bdd0276d20dba32d15aafccc21ba6410cdf
-}
-
-h1 {
-    font-size: 5vh;
+    font-size: 3vh;
     padding-top: 3rem;
 }
 
@@ -83,7 +74,7 @@ p {
 }
 
 .download-button {
-    font-size: 3vh;
+    font-size: 2vh;
     margin-top: 2rem;
     padding: 2%;
     border-radius: 20px;
@@ -93,11 +84,10 @@ p {
 .browser-button {
     background-color: #222;
     color: white;
-    font-size: 3vh;
-    margin-top: 1rem;
+    font-size: 2vh;
+    margin-top: 2rem;
     padding: 2%;
     border-radius: 20px;
-    margin-right: 2vh;
 }
 /* Main content */
 
@@ -135,8 +125,9 @@ h2 {
 }
 
 .green {
-    margin: 1rem 0;
+    margin: 0 auto;
     width: 70%;
+    padding-top: 3vh;
 }
 
 .star {
