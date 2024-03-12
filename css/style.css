@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+
+/* Header */
+
+header {
+    background-color: lightblue;
+    height: 18rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav-column {
+    background-color: goldenrod;
+    margin: 1rem 0;
+    border: 2px dashed;
+    padding: 1rem;
+}
+.small-nav-column {
+    width: 25%
+}
+
+.big-nav-column {
+    text-align: center;
+    width: 50%
+}
+
+.login {
+    text-align: right;
+}
+
+#jumbotron {
+    background-color: blue;
+    height: 14rem;
+    border-bottom: 5px solid lightblue;
+    padding: 2rem;
+}
+
+.pink-big {
+    background-color: rgb(238, 130, 238);
+    height: 10rem;
+    width: 65%;
+    margin: 0 auto;
+    border: 1px dashed;
+}
+
+/* Main content */
+
+.odd {
+    height: 16rem;
+}
+
+.even {
+    height: 16rem;
+    background-color: lightgrey;
+}
+
+.light-blue {
+    background-color: rgb(30, 144, 255);
+    margin: 2rem 0;
+    width: 60%;
+    height: 12rem;
+    border: 1px dashed;
+}
+
+.pink {
+    background-color: pink;
+    margin: 2rem 0;
+    width: 40%;
+    height: 12rem;
+    border: 1px dashed;
+}
+
+
+.green {
+    background-color: green;
+    margin: 1rem 0;
+    height: 14rem;
+    width: 70%;
+    border: 1px dashed;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    height: 21rem;
+}
+
+.footer-column {
+    height: 17rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid white;
+}
+
+.pink-column {
+    background-color: rgb(240, 128, 128);
+    width: 18%;
+    height: 16rem;
+    border: 1px dashed;
+    margin-bottom: 1rem;
+}
+
+.green-column {
+    background-color: rgb(32, 178, 170);
+    width: 13%;
+    height: 16rem;
+    border: 1px dashed white;
+    margin-bottom: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 3rem;
+    width: 60%;
+    margin: auto
+}
+
+.button {
+    background-color: rgb(255, 187, 200);
+    height: 1rem;
+    border: 1px dashed;
+    font-size: 22px;
+    padding-left: 3px;
+}
