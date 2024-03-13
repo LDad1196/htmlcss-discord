@@ -100,19 +100,15 @@ p {
 
 .even {
     min-height: 30rem;
-}
-
-.even {
-    min-height: 30rem;
     background-color: lightgrey;
     text-align: center;
 }
 
-.light-blue {
+.img-container {
     margin: 2rem 0;
 }
 
-.pink {
+.text-container {
     margin: 2rem 0;
 }
 
@@ -126,7 +122,7 @@ h2 {
     text-align: center;
 }
 
-.green {
+.big-text-container {
     margin: 0 auto;
     width: 70%;
     padding-top: 1vh;
@@ -160,7 +156,7 @@ h4 {
 
 h5 {
     color: #4261b6;
-    padding: 14% 0;
+    padding: 12% 0;
 }
 .padding{
     padding-top: 7%;
@@ -174,13 +170,13 @@ h5 {
     border-bottom: 2px solid white;
 }
 
-.pink-column {
+.language-column {
     width: 18%;
     margin-bottom: 1rem;
 }
 
-.green-column {
-    width: 13%;
+.help-column {
+    width: 14%;
     margin-bottom: 1rem;
 }
 
